@@ -15,14 +15,14 @@ const work = [
   {
     name: 'Sneaky Spy',
     position: 'Co-Founder',
-    url: 'src\pages\NotFound.js',
+    url: 'src/pages/NotFound.js',
     startDate: '2021-02-01',
     endDate: '2021-03-26',
     summary: `An engaging and helpful cryptography and cyber security education & awareness tool, aimed at ages 12 - 15, includes
     engaging cryptography tools and proof of concept randsomware and keylogger programs developed in C++`,
     highlights: [
       'Was later intergrated into extra curricular activities in Gloucestershire after demonstrating its effectiveness',
-      'Link is temporarily removed due to ethical issues distributing some of these tools'
+      'Link is temporarily removed due to ethical issues distributing some of these tools',
     ],
   },
   {
