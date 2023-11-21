@@ -1,6 +1,5 @@
-import dayjs from 'dayjs';
-
-/* Keys match keys returned by the github api. Fields without keys are
+/* import dayjs from 'dayjs';
+ * Keys match keys returned by the github api. Fields without keys are
  * mostly jokes. To see everything returned by the github api, run:
  curl https://github.com/Original-Lily/Site
  */
