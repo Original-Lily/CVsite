@@ -1,10 +1,10 @@
+// SideBar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-// PUBLIC_URL is set automatically from package.json:homepage
-const { PUBLIC_URL } = process.env;
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
   <section id="sidebar">
@@ -14,7 +14,10 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Lily Bradshaw</h2>
-        <p>My email can be found: <a href="mailto:buddie9173@gmail.com">buddie9173@gmail.com</a></p>
+        <p>
+          My email can be found:{' '}
+          <a href="mailto:buddie9173@gmail.com">buddie9173@gmail.com</a>
+        </p>
       </header>
     </section>
 
@@ -31,15 +34,9 @@ const SideBar = () => (
       <p>a keen interest in the ever-evolving realm of computer science.</p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? (
-            <Link to="/resume" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
+          <Link to="/resume" className="button">
+            Learn More
+          </Link>
         </li>
       </ul>
     </section>
