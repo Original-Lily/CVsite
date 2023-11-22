@@ -24,7 +24,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hello there! I'm Lily, a passionate student at the{' '}
+        Hello there! Im Lily, a passionate student at the{' '}
         <a href="https://www.kent.ac.uk/">University of Kent</a>
       </p>
       <p>
