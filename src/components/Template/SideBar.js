@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+// PUBLIC_URL is set automatically from package.json:homepage
+const { PUBLIC_URL } = process.env;
 
 const SideBar = () => (
   <section id="sidebar">
@@ -13,7 +14,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Lily Bradshaw</h2>
-        <p>My email can be found: <a href="here">buddie9173@gmail.com</a></p>
+        <p>My email can be found: <a href="mailto:buddie9173@gmail.com">buddie9173@gmail.com</a></p>
       </header>
     </section>
 
