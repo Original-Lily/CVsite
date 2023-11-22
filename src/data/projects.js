@@ -3,7 +3,7 @@ const data = [
   {
     title: 'Resume Site',
     subtitle: 'Site all about me I can show friends & the workplace',
-    link: 'https://github.com/Original-Lily/Site',
+    link: 'https://github.com/Original-Lily/CVsite',
     image: '/images/projects/CloakRoom.png',
     date: '2023-01-12',
     desc: 'An easy-to-use and professional website in order to demonstrate my skills & attributes, tasks still todo being: include a German/English toggle, & to create a dark/light mode toggle',
