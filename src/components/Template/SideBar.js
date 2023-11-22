@@ -19,12 +19,26 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p> Hello there! Im Lily, a passionate student at the <a href="https://www.kent.ac.uk/">University of Kent</a> </p>
-      <p> embarking on a journey with a solid foundation as a Cyber Security Analyst, I bring hands-on experience and </p>
-      <p> a keen interest in the ever-evolving realm of computer science. </p>
+      <p>
+        Hello there! I'm Lily, a passionate student at the{' '}
+        <a href="https://www.kent.ac.uk/">University of Kent</a>
+      </p>
+      <p>
+        embarking on a journey with a solid foundation as a Cyber Security
+        Analyst, I bring hands-on experience and
+      </p>
+      <p>a keen interest in the ever-evolving realm of computer science.</p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? (
+            <Link to="/resume" className="button">
+              Learn More
+            </Link>
+          ) : (
+            <Link to="/about" className="button">
+              About Me
+            </Link>
+          )}
         </li>
       </ul>
     </section>
