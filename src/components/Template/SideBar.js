@@ -14,6 +14,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Lily Bradshaw</h2>
+        <h4>Charlie Bradshaw</h4>
         <p>
           My email can be found:{' '}
           <a href="mailto:buddie9173@gmail.com">buddie9173@gmail.com</a>
@@ -26,8 +27,6 @@ const SideBar = () => (
       <p>
         Hello there! Im Lily, a passionate student at the{' '}
         <a href="https://www.kent.ac.uk/">University of Kent</a>
-      </p>
-      <p>
         embarking on a journey with a solid foundation as a Cyber Security
         Analyst, I bring hands-on experience and
         a keen interest in the ever-evolving realm of computer science.
