@@ -30,8 +30,8 @@ const SideBar = () => (
       <p>
         embarking on a journey with a solid foundation as a Cyber Security
         Analyst, I bring hands-on experience and
+        a keen interest in the ever-evolving realm of computer science.
       </p>
-      <p>a keen interest in the ever-evolving realm of computer science.</p>
       <ul className="actions">
         <li>
           <Link to="/resume" className="button">
