@@ -26,8 +26,8 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hello there! Im Lily, a passionate student at the{' '}
-        <a href="https://www.kent.ac.uk/">University of Kent</a>
-         embarking on a journey with a solid foundation as a Cyber Security
+        <a href="https://www.kent.ac.uk/">University of Kent</a> 
+        embarking on a journey with a solid foundation as a Cyber Security
         Analyst, I bring hands-on experience and
         a keen interest in the ever-evolving realm of computer science.
       </p>
