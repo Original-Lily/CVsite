@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'DeutschW-rter',
+    subtitle: 'Small german words project',
+    link: 'https://github.com/Original-Lily/DeutschW-rter',
+    image: '/images/projects/GermProj.png',
+    date: '2023-11-20',
+    desc: 'A straightforward combination of C++ and Python, recieving words from an Amazon relational database, to pop up on your screen for you to translate.',
+  },
+  {
     title: 'Resume Site',
     subtitle: 'Site all about me I can show friends & the workplace',
     link: 'https://github.com/Original-Lily/CVsite',
@@ -18,7 +26,7 @@ const data = [
   },
   {
     title: 'Unnamed Game',
-    subtitle: 'Created at 14, don\'t judge me',
+    subtitle: 'Created at 14',
     link: 'https://github.com/Original-Lily/CuteGame',
     image: '/images/projects/NonameGame.png',
     date: '2015-10-11',
