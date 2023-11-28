@@ -1,6 +1,6 @@
 # Personal Website
 
-Welcome to my [personal website](https://FabulousLily.com)!
+Welcome to Lily's [personal website](https://FabulousLily.com)!
 
 ## 🚀 Features
 
