@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'CloakRoom',
+    subtitle: 'CLI messaging app',
+    link: 'https://github.com/Original-Lily/CloakRoom',
+    image: '/images/projects/CloakRoom.png',
+    date: '2023-11-20',
+    desc: 'A symmetric or asymmetric encrypted CLI messaging app, made with python',
+  },
+  {
     title: 'DeutschW-rter',
     subtitle: 'Small german words project',
     link: 'https://github.com/Original-Lily/DeutschW-rter',
@@ -12,7 +20,7 @@ const data = [
     title: 'Resume Site',
     subtitle: 'Site all about me I can show friends & the workplace',
     link: 'https://github.com/Original-Lily/CVsite',
-    image: '/images/projects/CloakRoom.png',
+    image: '/images/projects/Resume.png',
     date: '2023-01-12',
     desc: 'An easy-to-use and professional website in order to demonstrate my skills & attributes, tasks still todo being: include a German/English toggle, & to create a dark/light mode toggle',
   },
