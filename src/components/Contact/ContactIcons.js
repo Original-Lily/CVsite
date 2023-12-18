@@ -1,16 +1,16 @@
 // ContactIcons.js
 import React from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 const ContactIcons = () => (
   <div className="icons">
     <a
-      href="https://www.linkedin.com/in/lily-bradshaw-03a28b1b7/"
+      href="https://www.instagram.com/_original_lily"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="LinkedIn"
+      aria-label="Instagram"
     >
-      <FaLinkedin />
+      <FaInstagram />
     </a>
     <a
       href="https://github.com/Original-Lily"

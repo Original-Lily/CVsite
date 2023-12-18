@@ -21,7 +21,7 @@ const routes = [
     path: '/stats',
   },
   {
-    label: 'Contact',
+    label: 'Contact & Gallery',
     path: '/contact',
   },
 ];
