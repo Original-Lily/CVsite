@@ -5,7 +5,7 @@ const data = [
     subtitle: '',
     link: 'https://www.canterbury.co.uk/',
     image: '/images/gallery/Oct23.png',
-    date: '2022-10-12',
+    date: '2023-10-12',
     desc: '',
   },
   {
@@ -13,7 +13,7 @@ const data = [
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Paris',
     image: '/images/gallery/Jul23.png',
-    date: '2022-07-04',
+    date: '2023-07-04',
     desc: '',
   },
   {
@@ -21,7 +21,7 @@ const data = [
     subtitle: '',
     link: 'https://www.canterbury-cathedral.org/',
     image: '/images/gallery/Jun23.png',
-    date: '2022-06-20',
+    date: '2023-06-20',
     desc: '',
   },
   {
@@ -29,7 +29,7 @@ const data = [
     subtitle: '',
     link: 'https://www.forestryengland.uk/the-forest-of-dean',
     image: '/images/gallery/May23.png',
-    date: '2022-05-13',
+    date: '2023-05-13',
     desc: '',
   },
   {
@@ -37,7 +37,7 @@ const data = [
     subtitle: '',
     link: 'https://www.kent.ac.uk/',
     image: '/images/gallery/Apr23.png',
-    date: '2022-04-27',
+    date: '2023-04-27',
     desc: '',
   },
   {
@@ -45,7 +45,7 @@ const data = [
     subtitle: '',
     link: 'https://stpancras.com/',
     image: '/images/gallery/Feb23.png',
-    date: '2022-02-07',
+    date: '2023-02-07',
     desc: '',
   },
   {
