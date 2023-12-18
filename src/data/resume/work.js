@@ -19,15 +19,16 @@ const work = [
     startDate: '2021-02-01',
     endDate: '2021-03-26',
     summary: `An engaging and helpful cryptography and cyber security education & awareness tool, aimed at ages 12 - 15, includes
-    engaging cryptography tools and proof of concept randsomware and keylogger programs developed in C++`,
+    engaging cryptography tools and proof of concept randsomware and keylogger programs developed in Python & C++`,
     highlights: [
-      'Was later intergrated into extra curricular activities in Gloucestershire after demonstrating its effectiveness',
-      'Link is temporarily removed due to ethical issues distributing some of these tools',
+      'Was later intergrated into extra curricular activities after demonstrating its effectiveness',
+      'Tools were demonstrated through the use of a phishing payload in order to aid understanding of risks',
+      'Teaching fellow students to mitigate these risks was key',
     ],
   },
   {
     name: 'Chosen Hill Tech Support',
-    position: 'Short-Term IT Specialist',
+    position: 'Short Term IT Specialist',
     url: 'https://chosenhillschool.co.uk/',
     startDate: '2018-06-14',
     endDate: '2018-08-01',
