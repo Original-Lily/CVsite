@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'PhishGuard',
+    subtitle: 'Phishing Email Detection Tool',
+    link: 'https://github.com/Original-Lily/PhishGuard',
+    image: '/images/projects/Phish.png',
+    date: '2023-12-11',
+    desc: 'An excel and python based tool to detect phishing emails, using a combination of machine learning and natural language processing',
+  },
+  {
     title: 'CloakRoom',
     subtitle: 'CLI messaging app',
     link: 'https://github.com/Original-Lily/CloakRoom',
