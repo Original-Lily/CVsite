@@ -17,8 +17,8 @@ Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https:
 1. Clone the repository:
 
     ```bash
-    git clone git://github.com/Original-Lily/Site.git
-    cd SitePrimary
+    git clone git://github.com/Original-Lily/CVsite.git
+    cd CVsite
     ```
 
 2. (Optional) Ensure you're on Node v16 or higher:
@@ -55,7 +55,7 @@ For a static export without deploying to GitHub Pages:
     npm run predeploy
     ```
 
-This will generate a static version in `personal-site/build/` which you can host or deploy to a CDN.
+This will generate a static version in `CVsite/build/` which you can host or deploy to a CDN.
 
 ## Acknowledgements
 
