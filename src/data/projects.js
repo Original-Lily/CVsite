@@ -1,6 +1,22 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Azure HoneyPot',
+    subtitle: 'Cloud based HoneyPot made with Azure',
+    link: 'https://github.com/Original-Lily/DiskSan-and-FileIntegrity-Utils',
+    image: '/images/projects/HoneyPot.png',
+    date: '2024-12-29',
+    desc: 'Cloud based HoneyPot made with Microsoft Azure and Sentinel to map login attempts using a geolocation API & Powershell scripts',
+  },
+  {
+    title: 'Nautical Almanac App',
+    subtitle: 'Nautical Almanac App for Sailors',
+    link: 'https://github.com/Original-Lily',
+    image: '/images/projects/NautAlmac.png',
+    date: '2024-01-02',
+    desc: 'Nautical Almanac App for Sailors in collaboration with a friend,  <href="https://github.com/CSherv272">Callum</href> using React Native, NodeJS & Python',
+  },
+  {
     title: 'PhishGuard',
     subtitle: 'Phishing Email Detection Tool',
     link: 'https://github.com/Original-Lily/PhishGuard',
