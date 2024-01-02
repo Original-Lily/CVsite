@@ -11,10 +11,10 @@ const data = [
   {
     title: 'Nautical Almanac App',
     subtitle: 'Nautical Almanac App for Sailors',
-    link: 'https://github.com/Original-Lily',
+    link: 'https://github.com/CSherv272/NauticalAlmanacApp',
     image: '/images/projects/NautAlmac.png',
     date: '2024-01-02',
-    desc: 'Nautical Almanac App for Sailors in collaboration with a friend,  <href="https://github.com/CSherv272">Callum</href> using React Native, NodeJS & Python',
+    desc: 'Nautical Almanac App for Sailors in collaboration with a friend, Callum using React Native, NodeJS & Python',
   },
   {
     title: 'PhishGuard',
