@@ -41,6 +41,14 @@ const data = [
     desc: 'A straightforward combination of C++ and Python, recieving words from an Amazon relational database, to pop up on your screen for you to translate.',
   },
   {
+    title: '✅ Neural kNN Assignement',
+    subtitle: 'Ginetic Algorithm & kNN Classifier in Java',
+    link: 'https://github.com/Original-Lily/Neural-kNN',
+    image: '/images/projects/kNN.png',
+    date: '2023-10-26',
+    desc: 'An algorithm that can accurately read data records from patients heads of 61 measured parameters, in order to measure the long term affects of alcahol abuse on the memory.',
+  },
+  {
     title: '✅ Resume Site',
     subtitle: 'Site all about me I can show friends & the workplace',
     link: 'https://github.com/Original-Lily/CVsite',
