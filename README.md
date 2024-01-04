@@ -60,3 +60,5 @@ This will generate a static version in `CVsite/build/` which you can host or dep
 ## Acknowledgements
 
 - Initial template from [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
+
+- React template from [personal-site](https://github.com/mldangelo/personal-site) by [@mldangelo](https://github.com/mldangelo)

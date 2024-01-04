@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'New Years',
+    subtitle: '',
+    link: 'https://en.wikipedia.org/wiki/2024',
+    image: '/images/gallery/Jan24.png',
+    date: '2024-01-01',
+    desc: '',
+  },
+  {
     title: 'Canterbury',
     subtitle: '',
     link: 'https://www.canterbury.co.uk/',
