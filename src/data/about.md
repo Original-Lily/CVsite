@@ -11,19 +11,23 @@ My name is Lily (I legally go by Charlie for now) & I am a passionate and dedica
 
  - <b>Project Architect:</b><i> I take pride in my ability to design efficient, maintainable, and secure systems; regarding the software & hardware involved. My projects often include designing scalable and reliable systems from the ground up, and incorporating useful features that improve the code beyond the initial foundation.</i><br>
 
-# I like
+# I like - In no particular order
 
-- Video Games
-- Swimming
-- CTF
-- Space
-- Mushrooms
-- Winter
-- Robots
+- 🎮 Video Games
+- 💦 Swimming
+- 🖥 CTF
+- ⭐️ Space
+- 🍄 Mushrooms
+- ❄️ Winter
+- 🥂 Fun
+- 👾 Robots
+- 🍣 Sushi
+- ♟️ Chess
 
 # Fun facts
 
-- I can't locate nearly every country on a map.
+- I can locate nearly every country on a map.
+- I am trying my very best to learn German
 - I have a list of thousands of ideas, making a point to expand it everyday.
 - I added this page because so many people complained that my site was just my resume.
 - I am deterministic.
