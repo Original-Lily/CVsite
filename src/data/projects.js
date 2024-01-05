@@ -17,7 +17,7 @@ const data = [
     desc: 'Cloud based HoneyPot made with Microsoft Azure and Sentinel to map login attempts using a geolocation API & Powershell scripts',
   },
   {
-    title: '🛠️ PhishGuard',
+    title: '✅ PhishGuard',
     subtitle: 'Phishing Email Detection Tool',
     link: 'https://github.com/Original-Lily/PhishGuard',
     image: '/images/projects/Phish.png',
