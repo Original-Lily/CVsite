@@ -65,6 +65,14 @@ const data = [
     desc: 'Lightweight Disk utilities, Calculates the SHA512 hash for each file in the "Files" directory. Creates or overwrites a baseline file ("baseline.txt") with file paths and corresponding hash values.',
   },
   {
+    title: '✅ Sneaky Spy',
+    subtitle: 'Cyber Security Education',
+    link: 'https://github.com/SneakySpi',
+    image: '/images/projects/SS.png',
+    date: '2021-02-01',
+    desc: 'An engaging and helpful cryptography and cyber security education & awareness tool, aimed at ages 12 - 15, includes engaging cryptography tools and proof of concept randsomware and keylogger programs developed in a diverse selection of languages',
+  },
+  {
     title: '✅ Unnamed Game',
     subtitle: 'Created at 14',
     link: 'https://github.com/Original-Lily/CuteGame',

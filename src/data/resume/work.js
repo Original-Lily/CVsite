@@ -15,11 +15,11 @@ const work = [
   {
     name: 'Sneaky Spy',
     position: 'Co-Founder',
-    url: 'src/pages/NotFound.js',
+    url: 'https://github.com/SneakySpi',
     startDate: '2021-02-01',
     endDate: '2021-03-26',
     summary: `An engaging and helpful cryptography and cyber security education & awareness tool, aimed at ages 12 - 15, includes
-    engaging cryptography tools and proof of concept randsomware and keylogger programs developed in Python & C++`,
+    engaging cryptography tools and proof of concept randsomware and keylogger programs developed in a diverse selection of languages`,
     highlights: [
       'Was later intergrated into extra curricular activities after demonstrating its effectiveness',
       'Tools were demonstrated through the use of a phishing payload in order to aid understanding of risks',
