@@ -30,7 +30,7 @@ const data = [
     link: 'https://github.com/Original-Lily/CloakRoom',
     image: '/images/projects/CloakRoom.png',
     date: '2023-11-20',
-    desc: 'An encrypted messaging application following a client server model & made with python, using associated networking modules.',
+    desc: 'An encrypted messaging application following a client server model & made with python; using associated networking modules such as Fernet and Socket',
   },
   {
     title: '🛠️ DeutschW-rter',
