@@ -38,7 +38,7 @@ const data = [
     link: 'https://github.com/Original-Lily/DeutschW-rter',
     image: '/images/projects/GermProj.png',
     date: '2023-11-20',
-    desc: 'A straightforward combination of C++ and Python, recieving words from an Amazon relational database, to pop up on your screen for you to translate.',
+    desc: 'A straightforward combination of Java and Python, recieving words from a Cloud-based Amazon relational database, to pop up on your screen for you to translate.',
   },
   {
     title: '✅ Neural kNN Assignement',
