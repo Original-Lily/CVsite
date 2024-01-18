@@ -6,7 +6,7 @@ const data = [
     link: 'https://github.com/CSherv272/NauticalAlmanacApp',
     image: '/images/projects/NautAlmac.png',
     date: '2024-01-02',
-    desc: 'Nautical Almanac App for Sailors to calculate compass error -  in collaboration with a friend, Callum using React Native, NodeJS & Python',
+    desc: 'Nautical Almanac App for Sailors to calculate compass error -  in collaboration with a friend, Callum using React Native, NodeJS, ExpressJS & Python',
   },
   {
     title: '✅ Azure HoneyPot',
@@ -54,7 +54,7 @@ const data = [
     link: 'https://github.com/Original-Lily/CVsite',
     image: '/images/projects/Resume.png',
     date: '2023-01-12',
-    desc: 'An easy-to-use and professional website in order to demonstrate my skills & attributes, tasks still todo being: include a German/English toggle, & to create a dark/light mode toggle',
+    desc: 'A beautiful, responsive, statically-generated, react application written with modern Javascript. Still todo: include a German/English toggle, & to create a dark/light mode toggle',
   },
   {
     title: '✅ Lilys Diskwatch',
