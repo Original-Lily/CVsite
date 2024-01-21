@@ -1,0 +1,11 @@
+.Large_circle, .Small_circle{
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 233); 
+    position: fixed;  
+}
+
+.Small_circle{
+    width: 16px; height: 16px;
+    background-color: rgb(204, 204, 204);
+}
