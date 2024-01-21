@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: '🛠️ Weather Display',
+    subtitle: 'Vue Weather App',
+    link: 'https://github.com/Original-Lily',
+    image: '/images/projects/WeatherApp.png',
+    date: '2024-01-20',
+    desc: 'Using VueJS and Python along with OpenWeatherMapAPI and Generative Ai to create an app that will provide weather details in a given location, while providing a decorative background in that location on demand',
+  },
+  {
     title: '🛠️ Nautical Almanac App',
     subtitle: 'Nautical Almanac App for Sailors',
     link: 'https://github.com/CSherv272/NauticalAlmanacApp',
@@ -57,12 +65,12 @@ const data = [
     desc: 'A beautiful, responsive, statically-generated, react application written with modern Javascript. Still todo: include a German/English toggle, & to create a dark/light mode toggle',
   },
   {
-    title: '✅ Lilys Diskwatch',
+    title: '✅ Lilys Diskwatch & WWW Utilities',
     subtitle: 'Lightweight Utilities',
-    link: 'https://github.com/Original-Lily/DiskSan-and-FileIntegrity-Utils',
+    link: 'https://github.com/Original-Lily/ComnUse-Utils',
     image: '/images/projects/DiskWatch.png',
     date: '2021-06-12',
-    desc: 'Lightweight Disk utilities, Calculates the SHA512 hash for each file in the "Files" directory. Creates or overwrites a baseline file ("baseline.txt") with file paths and corresponding hash values.',
+    desc: 'Lightweight Data Integrity Monitor and Disk sanitizer & Ethical Hacking time saver programs I use personally along with such as pen testing tools and scanners, and a windows event log exporter.',
   },
   {
     title: '✅ Sneaky Spy',
