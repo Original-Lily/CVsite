@@ -1,12 +1,12 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: '🛠️ Weather Display',
-    subtitle: 'Vue Weather App',
-    link: 'https://github.com/Original-Lily',
+    title: '✅ CheckTheVue',
+    subtitle: 'CheckTheVue',
+    link: 'https://github.com/Original-Lily/CheckTheVue',
     image: '/images/projects/WeatherApp.png',
-    date: '2024-01-20',
-    desc: 'Using VueJS and Python along with OpenWeatherMapAPI and Generative Ai to create an app that will provide weather details in a given location, while providing a decorative background in that location on demand',
+    date: '2024-01-25',
+    desc: 'Using VueJS along with OpenWeatherMapAPI and Generative Ai to create an app that will provide weather details in a given location, while providing a decorative background in that location on demand',
   },
   {
     title: '🛠️ Nautical Almanac App',

@@ -16,6 +16,11 @@ const Projects = () => (
         <div className="title">
           <h2><Link to="/projects">Projects</Link></h2>
           <p>A selection of projects that I&apos;m not too ashamed of</p>
+          <ul>
+            <li>🛜 - Live Service</li>
+            <li>✅ - Completed Project</li>
+            <li>🛠️ - Under Construction</li>
+          </ul>
         </div>
       </header>
       {data.map((project) => (
