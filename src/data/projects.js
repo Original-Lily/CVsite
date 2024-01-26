@@ -17,7 +17,7 @@ const data = [
     desc: 'Nautical Almanac App for Sailors to calculate compass error -  in collaboration with a friend, Callum using React Native, NodeJS, ExpressJS & Python',
   },
   {
-    title: '✨ Azure HoneyPot',
+    title: '🌍 Azure HoneyPot',
     subtitle: 'Cloud based HoneyPot made with Azure',
     link: 'https://github.com/Original-Lily/DiskSan-and-FileIntegrity-Utils',
     image: '/images/projects/HoneyPot.png',
@@ -57,7 +57,7 @@ const data = [
     desc: 'An algorithm that can accurately read data records from patients heads of 61 measured parameters, in order to measure the long term affects of alcahol abuse on the memory.',
   },
   {
-    title: '✨ Resume Site',
+    title: '🌍 Resume Site',
     subtitle: 'Site all about me I can show friends & the workplace',
     link: 'https://github.com/Original-Lily/CVsite',
     image: '/images/projects/Resume.png',
