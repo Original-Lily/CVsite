@@ -26,6 +26,8 @@ const messages = [
   'admin',
   'or-I-really-like-your-website',
   'thanks',
+  'ok fine here it is:',
+  'contact@fabulouslily.com',
 ];
 
 const useInterval = (callback, delay) => {

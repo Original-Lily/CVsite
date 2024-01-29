@@ -17,7 +17,7 @@ const work = [
     position: 'Co-Founder',
     url: 'https://github.com/SneakySpi',
     startDate: '2021-02-01',
-    endDate: '2021-03-26',
+    endDate: '2021-05-26',
     summary: `An engaging and helpful cryptography and cyber security education & awareness tool, aimed at ages 12 - 15, includes
     engaging cryptography tools and proof of concept randsomware and keylogger programs developed in a diverse selection of languages`,
     highlights: [

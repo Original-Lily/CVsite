@@ -17,7 +17,7 @@ const SideBar = () => (
         <h4>Charlie Bradshaw</h4>
         <p>
           My email can be found:{' '}
-          <a href="mailto:buddie9173@gmail.com">buddie9173@gmail.com</a>
+          <a href="mailto:contact@fabulouslily.com">contact@fabulouslily.com</a>
         </p>
       </header>
     </section>
