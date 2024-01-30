@@ -6,6 +6,12 @@ const degrees = [
     year: 2022,
   },
   {
+    school: 'Ethics of an AGI',
+    degree: 'Extended Project Qualification',
+    link: '../../../public/EPQ.pdf',
+    year: 2021,
+  },
+  {
     school: 'Chosen Hill School',
     degree: 'A-Levels: Computer Science, ICT & Mathematics',
     link: 'https://chosenhillschool.co.uk/',
