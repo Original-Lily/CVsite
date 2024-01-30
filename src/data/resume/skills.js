@@ -57,12 +57,12 @@ const skills = [
   {
     title: 'Docker',
     competency: 2,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Tools', 'Data Science'],
   },
   {
     title: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
+    category: ['Data Science', 'Python', 'ML Engineering'],
   },
   {
     title: 'Tensorflow',
@@ -107,7 +107,7 @@ const skills = [
   {
     title: 'Pandas',
     competency: 2,
-    category: ['Data Engineering', 'Data Science', 'ML Engineering', 'Python'],
+    category: ['Data Science', 'ML Engineering', 'Python'],
   },
   {
     title: 'Azure',
