@@ -35,6 +35,16 @@ const skills = [
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
+    title: 'MS Office',
+    competency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'Adobe Applications',
+    competency: 4,
+    category: ['Tools'],
+  },
+  {
     title: 'Flask',
     competency: 2,
     category: ['Web Development', 'Python'],
