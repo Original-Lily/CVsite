@@ -8,7 +8,7 @@ const degrees = [
   {
     school: 'Ethics of an AGI',
     degree: 'Extended Project Qualification',
-    link: 'https://github.com/Original-Lily/CVsite/blob/main/public/EPQ.pdf',
+    link: 'https://github.com/Original-Lily/Original-Lily/blob/main/EPQstore/EPQ.pdf',
     year: 2021,
   },
   {
