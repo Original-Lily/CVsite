@@ -3,6 +3,14 @@ const data = [
   {
     title: 'Birthday',
     subtitle: '',
+    link: 'https://en.wikipedia.org/wiki/London',
+    image: '/images/gallery/Mar24.png',
+    date: '2024-03-13',
+    desc: '',
+  },
+  {
+    title: 'Birthday',
+    subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Somerset',
     image: '/images/gallery/Feb24.png',
     date: '2024-02-10',
