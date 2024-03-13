@@ -9,7 +9,7 @@ const data = [
   },
   {
     title: '🛠️ MediCare Hospital Management',
-    subtitle: 'TeamWork Project for University', 
+    subtitle: 'TeamWork Project for University',
     link: 'https://github.com/Original-Lily',
     image: '/images/projects/hospitalMan.png',
     date: '2024-03-13',
