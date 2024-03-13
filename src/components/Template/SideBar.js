@@ -36,7 +36,7 @@ const SideBar = () => (
           <Link to="/resume" className="button">
             Learn More
           </Link>
-          <Link to="https://fabulouslily.com/CV.pdf" className="button">
+          <Link to="https://fabulouslily.com/myCV.pdf" className="button">
             View my CV
           </Link>
         </li>
