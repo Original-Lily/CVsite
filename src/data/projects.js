@@ -11,7 +11,7 @@ const data = [
     title: '🛠️ MediCare Hospital Management',
     subtitle: 'TeamWork Project for University',
     link: 'https://github.com/Original-Lily',
-    image: '/images/projects/hospitalMan.png',
+    image: '/images/projects/WeatherApp.png',
     date: '2024-03-13',
     desc: 'A team project for my software development univeristy module, utilizing the Java Maven Framework and a remote AWS mySQL database, to create a full hospital management system with Zero-Trust access and a focus on patient usability and convenience',
   },
