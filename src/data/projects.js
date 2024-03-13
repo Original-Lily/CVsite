@@ -8,6 +8,14 @@ const data = [
     desc: 'Following up on previous projects, to ensure they are still working and to update them if necessary. This includes the Nautical Almanac App, completing DeutschW-rter, and working on a second iteration of Cloak Room',
   },
   {
+    title: '🛠️ MediCare Hospital Management',
+    subtitle: 'TeamWork Project for University', 
+    link: 'https://github.com/Original-Lily',
+    image: '/images/projects/hospitalMan.png',
+    date: '2024-03-13',
+    desc: 'A team project for my software development univeristy module, utilizing the Java Maven Framework and a remote AWS mySQL database, to create a full hospital management system with Zero-Trust access and a focus on patient usability and convenience',
+  },
+  {
     title: '✨ CheckTheVue',
     subtitle: 'CheckTheVue',
     link: 'https://github.com/Original-Lily/CheckTheVue',
