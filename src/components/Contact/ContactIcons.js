@@ -1,6 +1,11 @@
-/* eslint-disable object-curly-newline */
+// ContactIcons.js
 import React from 'react';
-import { FaGithub, FaEnvelope, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaEnvelope,
+  FaInstagram,
+  FaLinkedin,
+} from 'react-icons/fa';
 
 const ContactIcons = () => (
   <div className="icons">
@@ -29,7 +34,7 @@ const ContactIcons = () => (
       rel="noopener noreferrer"
       aria-label="LinkedIn"
     >
-      <FaLinkedinIn />
+      <FaLinkedin />
     </a>
   </div>
 );
