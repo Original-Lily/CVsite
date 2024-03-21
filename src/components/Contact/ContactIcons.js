@@ -1,4 +1,4 @@
-// ContactIcons.js
+/* eslint-disable object-curly-newline */
 import React from 'react';
 import { FaGithub, FaEnvelope, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
