@@ -1,6 +1,6 @@
 // ContactIcons.js
 import React from 'react';
-import { FaGithub, FaEnvelope, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const ContactIcons = () => (
   <div className="icons">
@@ -22,6 +22,14 @@ const ContactIcons = () => (
     </a>
     <a href="mailto:buddie9173@gmail.com" aria-label="Email">
       <FaEnvelope />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/charlie-b-44a3231b9/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      <FaLinkedinIn />
     </a>
   </div>
 );
