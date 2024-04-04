@@ -121,8 +121,8 @@ const skills = [
   },
   {
     title: 'Azure',
-    competency: 2,
-    category: ['Web Development', 'Databases', 'Cyber Security'],
+    competency: 3,
+    category: ['Web Development', 'Databases', 'Cyber Security', 'Cloud'],
   },
   {
     title: 'VueJS',
