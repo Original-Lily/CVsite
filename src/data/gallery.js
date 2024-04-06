@@ -1,7 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Birthday',
+    title: 'Semester #5',
+    subtitle: '',
+    link: 'https://en.wikipedia.org/wiki/Rome',
+    image: '/images/gallery/Apr02.png',
+    date: '2024-04-02',
+    desc: '',
+  },
+  {
+    title: 'Networking in London',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/London',
     image: '/images/gallery/Mar24.png',
@@ -9,7 +17,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'Birthday',
+    title: 'Semester #4',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Somerset',
     image: '/images/gallery/Feb24.png',
@@ -25,7 +33,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'Canterbury',
+    title: 'Canterbury City Tour',
     subtitle: '',
     link: 'https://www.canterbury.co.uk/',
     image: '/images/gallery/Oct23.png',
@@ -33,7 +41,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'Disney',
+    title: 'Journey to Paris',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Paris',
     image: '/images/gallery/Jul23.png',
@@ -49,7 +57,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'Nature',
+    title: 'Forest of Dean Teambuilding',
     subtitle: '',
     link: 'https://www.forestryengland.uk/the-forest-of-dean',
     image: '/images/gallery/May23.png',
@@ -65,7 +73,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'London Shopping Trip',
+    title: 'London Familiarity',
     subtitle: '',
     link: 'https://stpancras.com/',
     image: '/images/gallery/Feb23.png',
@@ -81,7 +89,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'Uni of Kent',
+    title: 'University of Kent',
     subtitle: '',
     link: 'https://www.kent.ac.uk/',
     image: '/images/gallery/Oct22.png',
@@ -89,7 +97,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'Bath Trip',
+    title: 'City of Bath',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Bath,_Somerset',
     image: '/images/gallery/Sept22.png',

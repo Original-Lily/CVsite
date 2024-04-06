@@ -13,6 +13,21 @@
  */
 const work = [
   {
+    name: 'MediCare IT',
+    position: 'Cheif Technical Lead',
+    url: 'https://github.com/Original-Lily/MediCare',
+    startDate: '2024-01-04',
+    endDate: '2024-05-04',
+    summary: `A scalable and Patient-sentric healthcare management system, designed to be user-friendly and secure for both patients
+    and healthcare professionals; developed with a team of 5, using agile methodologies and version control systems.`,
+    highlights: [
+      'Effective use of AWS cloud systems and Zero-Trust access policies to ensure data security and privacy.',
+      'Modular & scalable design allowed for easy integration of new features and services such as detailed data logging systems and testing.',
+      'Use of Maven and Jenkins CI/CD pipelines to automate testing and deployment processes, ensuring a high level of code quality and reliability.',
+      'Enabled the training and skills development of new team members, ensuring they were able to contribute effectively to the project.',
+    ],
+  },
+  {
     name: 'Sneaky Spy',
     position: 'Co-Founder',
     url: 'https://github.com/SneakySpi',
