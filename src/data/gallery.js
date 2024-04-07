@@ -4,7 +4,7 @@ const data = [
     title: 'Semester #5',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Rome',
-    image: '/images/gallery/Apr02.png',
+    image: '/images/gallery/Apr24.png',
     date: '2024-04-02',
     desc: '',
   },
