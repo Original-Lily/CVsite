@@ -8,7 +8,7 @@ const data = [
     desc: 'Following up on previous projects, to ensure they are still working and to update them if necessary. This includes the Nautical Almanac App, completing DeutschW-rter, and working on a second iteration of Cloak Room',
   },
   {
-    title: '🛠️ MediCare Hospital Management',
+    title: '🌍 MediCare Hospital Management',
     subtitle: 'TeamWork Project for University',
     link: 'https://github.com/Original-Lily/MediCare',
     image: '/images/projects/hospitalMan2.PNG',

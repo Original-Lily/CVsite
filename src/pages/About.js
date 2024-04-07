@@ -30,7 +30,7 @@ const About = () => {
         <header>
           <div className="title">
             <h2><Link to="/about">About Me</Link></h2>
-            <p>(in about {count} words)</p>
+            <p>(in about {count} words - go ahead, count!)</p>
           </div>
         </header>
         <Personal />
