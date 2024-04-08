@@ -18,7 +18,7 @@ const work = [
     url: 'https://github.com/Original-Lily/MediCare',
     startDate: '2024-01-04',
     endDate: '2024-05-04',
-    summary: `A scalable and Patient-sentric healthcare management system, designed to be user-friendly and secure for both patients
+    summary: `A scalable and Patient-centric healthcare management system, designed to be user-friendly and secure for both patients
     and healthcare professionals; developed with a team of 5, using agile methodologies and version control systems.`,
     highlights: [
       'Effective use of AWS cloud systems and Zero-Trust access policies to ensure data security and privacy.',
