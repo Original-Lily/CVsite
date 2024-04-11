@@ -23,7 +23,7 @@ const work = [
     highlights: [
       'Effective use of AWS cloud systems and Zero-Trust access policies to ensure data security and privacy.',
       'Modular & scalable design allowed for easy integration of new features and services such as detailed data logging systems and testing.',
-      'Use of Maven and Jenkins CI/CD pipelines to automate testing and deployment processes, ensuring a high level of code quality and reliability.',
+      'Use of Maven and YAML CI/CD pipelines to automate testing and deployment processes, ensuring a high level of code quality and reliability.',
       'Enabled the training and skills development of new team members, ensuring they were able to contribute effectively to the project.',
     ],
   },
