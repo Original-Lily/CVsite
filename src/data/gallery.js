@@ -81,6 +81,14 @@ const data = [
     desc: '',
   },
   {
+    title: 'ICHackathon 2023',
+    subtitle: '',
+    link: 'https://www.queenelizabetholympicpark.co.uk/',
+    image: '/images/gallery/Jan23.png',
+    date: '2023-01-20',
+    desc: '',
+  },
+  {
     title: 'Semester #1',
     subtitle: '',
     link: 'https://skygarden.london/',
