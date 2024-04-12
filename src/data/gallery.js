@@ -83,7 +83,7 @@ const data = [
   {
     title: 'ICHackathon 2023',
     subtitle: '',
-    link: 'https://www.queenelizabetholympicpark.co.uk/',
+    link: 'https://ichack.org/',
     image: '/images/gallery/Jan23.png',
     date: '2023-01-20',
     desc: '',
