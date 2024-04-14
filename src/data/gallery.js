@@ -41,6 +41,14 @@ const data = [
     desc: '',
   },
   {
+    title: 'Summer Internship',
+    subtitle: '',
+    link: 'https://www.canterbury.co.uk/',
+    image: '/images/gallery/Aug23.png',
+    date: '2023-08-29',
+    desc: '',
+  },
+  {
     title: 'Journey to Paris',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Paris',
@@ -73,6 +81,14 @@ const data = [
     desc: '',
   },
   {
+    title: 'Hiking in the Peak District',
+    subtitle: '',
+    link: 'https://www.visitwales.com/',
+    image: '/images/gallery/Mar23.png',
+    date: '2023-03-11',
+    desc: '',
+  },
+  {
     title: 'London Familiarity',
     subtitle: '',
     link: 'https://stpancras.com/',
@@ -94,6 +110,14 @@ const data = [
     link: 'https://skygarden.london/',
     image: '/images/gallery/Dec22.png',
     date: '2022-12-05',
+    desc: '',
+  },
+  {
+    title: 'London Hackathon',
+    subtitle: '',
+    link: 'https://amplitude.com/community/events/hackathon-2022-london',
+    image: '/images/gallery/Nov22.png',
+    date: '2022-11-15',
     desc: '',
   },
   {
