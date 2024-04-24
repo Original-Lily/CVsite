@@ -1,5 +1,12 @@
-// TODO Add a couple lines about each project
 const data = [
+  {
+    title: 'AWS Summit London 2024',
+    subtitle: '',
+    link: 'https://aws.amazon.com/events/summits/emea/london/',
+    image: '/images/gallery/May24.png',
+    date: '2024-04-25',
+    desc: '',
+  },
   {
     title: 'Semester #5',
     subtitle: '',
