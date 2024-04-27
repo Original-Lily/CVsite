@@ -11,7 +11,6 @@ import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
 import { skills, categories } from '../data/resume/skills';
 
-// NOTE: sections are displayed in order defined.
 const sections = {
   Education: () => <Education data={degrees} />,
   Experience: () => <Experience data={work} />,
