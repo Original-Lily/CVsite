@@ -1,18 +1,18 @@
 const data = [
   {
+    title: 'Semester #5',
+    subtitle: '',
+    link: 'https://en.wikipedia.org/wiki/Rome',
+    image: '/images/gallery/Apr24.png',
+    date: '2024-05-02',
+    desc: '',
+  },
+  {
     title: 'AWS Summit London 2024',
     subtitle: '',
     link: 'https://aws.amazon.com/events/summits/emea/london/',
     image: '/images/gallery/May24.png',
     date: '2024-04-25',
-    desc: '',
-  },
-  {
-    title: 'Semester #5',
-    subtitle: '',
-    link: 'https://en.wikipedia.org/wiki/Rome',
-    image: '/images/gallery/Apr24.png',
-    date: '2024-04-02',
     desc: '',
   },
   {
@@ -96,7 +96,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'London Familiarity',
+    title: 'City Life',
     subtitle: '',
     link: 'https://stpancras.com/',
     image: '/images/gallery/Feb23.png',
@@ -104,7 +104,7 @@ const data = [
     desc: '',
   },
   {
-    title: 'ICHackathon 2023',
+    title: 'ICL Hackathon 2023',
     subtitle: '',
     link: 'https://ichack.org/',
     image: '/images/gallery/Jan23.png',
