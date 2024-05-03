@@ -43,7 +43,7 @@ const data = [
     title: 'Christmas Break',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/2023',
-    image: '/images/gallery/Jan24.png',
+    image: '/images/gallery/Dec23.png',
     date: '2024-12-20',
     desc: '',
   },
