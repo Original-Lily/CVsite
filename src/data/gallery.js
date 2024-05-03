@@ -40,6 +40,14 @@ const data = [
     desc: '',
   },
   {
+    title: 'Christmas Break',
+    subtitle: '',
+    link: 'https://en.wikipedia.org/wiki/2023',
+    image: '/images/gallery/Jan24.png',
+    date: '2024-12-20',
+    desc: '',
+  },
+  {
     title: 'Canterbury City Tour',
     subtitle: '',
     link: 'https://www.canterbury.co.uk/',
@@ -48,11 +56,19 @@ const data = [
     desc: '',
   },
   {
+    title: 'Summer Concluding ',
+    subtitle: '',
+    link: 'https://www.iamsterdam.com/en/',
+    image: '/images/gallery/Sep23.png',
+    date: '2023-09-02',
+    desc: '',
+  },
+  {
     title: 'Summer Internship',
     subtitle: '',
     link: 'https://www.canterbury.co.uk/',
     image: '/images/gallery/Aug23.png',
-    date: '2023-08-29',
+    date: '2023-08-21',
     desc: '',
   },
   {
