@@ -44,7 +44,15 @@ const data = [
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/2023',
     image: '/images/gallery/Dec23.png',
-    date: '2024-12-20',
+    date: '2023-12-20',
+    desc: '',
+  },
+  {
+    title: 'Remote Host Lab',
+    subtitle: '',
+    link: 'https://cloud.google.com/',
+    image: '/images/gallery/Nov23.png',
+    date: '2023-11-05',
     desc: '',
   },
   {
