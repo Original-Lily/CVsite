@@ -24,6 +24,14 @@ const data = [
     desc: 'Following up on previous projects, to ensure they are still working and to update them if necessary. This includes the Nautical Almanac App, completing DeutschW-rter, and working on a second iteration of Cloak Room',
   },
   {
+    title: 'Haskell TBAdventure Game PoC',
+    subtitle: 'Apart of my Haskell Learning Journey at the University of Kent',
+    link: 'https://github.com/Original-Lily/HaskellTBAdventure',
+    image: '/images/projects/SandAbstract.png',
+    date: '2024-02-02',
+    desc: 'A proof-of-concept text-based adventure game written in Haskell, developed to expand my skills in functional programming and to learn the basics of the language in an engaging manner',
+  },
+  {
     title: 'CheckTheVue',
     subtitle: 'CheckTheVue',
     link: 'https://github.com/Original-Lily/CheckTheVue',
@@ -108,7 +116,7 @@ const data = [
     subtitle: 'Created at 14',
     link: 'https://github.com/Original-Lily/CuteGame',
     image: '/images/projects/NonameGame.png',
-    date: '2015-10-11',
+    date: '2020-10-11',
     desc: 'A simple yet addictive python game, developed at first for fun, then adapted into a much smaller version in order to evade my school\'s internal security systems',
   },
 ];
