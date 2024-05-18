@@ -8,6 +8,14 @@ Welcome to Lily's [personal website](https://FabulousLily.com)!
 - Automated workflows via [GitHub Actions](https://github.com/features/actions).
 - And more!
 
+## TODO
+
+- Finish: Pen-testing toolbox
+- Finish: CTF on-site with oLlama
+-  Begin: German language slider
+-  Begin: Certification banner links in ribbon
+-  Maybe: Include portrait icon with LinkedIn
+
 ## Dependencies
 
 Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage node versions.
