@@ -24,6 +24,18 @@
         .hidden {
             display: none;
         }
+        .icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .directory .icon {
+            content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAADJ79e9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAG2YAABthgAAEGIAAG2YAAAH6AAAQgIAAG2YAAAVhAAA6AAAADsBWAUoAAAACXZwQWcAAAAOAAAAjgABQdB+AAAACXBBYWwAAAA4AAAAMABxSXUIAAAAJcEhZcwAACxMAAAsTAQCanBgAAACkSURBVDhPY/z//z8DJYAJViMm5WFYBF4CpkpCZmTMwMTAyMlJcCKqYQkQAygRBLILcXgxSiFfDRIGgvSCQSWTwh0TYAq4E6eBsbYgAbSiQVH7ZYPQDQKwbmBa0QDP4FxVgg6KzwNDMBJLEIBAAAhxoezHHCLiUAAAAASUVORK5CYII=');
+        }
+        .file .icon {
+            content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAADJ79e9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAG2YAABthgAAEGIAAG2YAAAH6AAAQgIAAG2YAAAVhAAA6AAAADsBWAUoAAAACXZwQWcAAAAOAAAAjgABQdB+AAAACXBBYWwAAAA4AAAAMABxSXUIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAA3SURBVDhPY/z//z8DJYCJgU9YVQAjsKKQgFgAMsQIrIBXiRAAPpLIAaSYAcKMFCGjQFagABBgBtLgFr2+KkJwAAAABJRU5ErkJggg==');
+        }
     </style>
 </head>
 <body>
@@ -32,7 +44,7 @@
     <div id="file-content" class="file-content"></div>
 
     <script>
-        const owner = 'Original-Lily';
+        const owner = 'Original-Lily'; 
         const repo = 'ComnUse-Utils'; 
 
         async function fetchFiles(path = '') {
@@ -43,10 +55,14 @@
             files.forEach(file => {
                 const listItem = document.createElement('li');
                 const link = document.createElement('a');
+                const icon = document.createElement('span');
+                icon.classList.add('icon');
                 link.href = '#';
                 link.textContent = file.name;
+                link.prepend(icon);
                 if (file.type === 'file') {
                     link.onclick = () => fetchFileContent(file.path);
+                    link.classList.add('file');
                 } else if (file.type === 'dir') {
                     link.classList.add('directory');
                     link.onclick = (e) => {
