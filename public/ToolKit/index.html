@@ -43,12 +43,12 @@
         .download-link {
             position: absolute;
             top: 42px;
-            right: 100px; 
+            right: 100px;
         }
         .back-button {
             position: absolute;
-            top: 42px; 
-            right: 20px; 
+            top: 42px;
+            right: 20px;
             text-decoration: none;
         }
         .last-commit {
@@ -69,98 +69,67 @@
 
     <script>
         const owner = 'Original-Lily';
-        const repo = 'ComnUse-Utils'; 
+        const repo = 'ComnUse-Utils';
 
         async function fetchFiles(path = '') {
-            try {
-                const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`);
-                if (!response.ok) {
-                    if (response.status === 403) {
-                        throw new Error(`Access to the repository is forbidden. Please ensure that the repository is public.`);
-                    } else {
-                        throw new Error(`Failed to fetch files: ${response.status} ${response.statusText}`);
-                    }
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`);
+            const files = await response.json();
+            const fileList = path ? document.querySelector(`[data-path="${path}"]`) : document.getElementById('file-list');
+
+            files.forEach(file => {
+                if (file.name === 'LICENSE' || file.name === 'README.md') {
+                    return; //ignore LICENSE and README.md files
                 }
-                const files = await response.json();
-                const fileList = path ? document.querySelector(`[data-path="${path}"]`) : document.getElementById('file-list');
 
-                files.forEach(file => {
-                    if (file.name === 'LICENSE' || file.name === 'README.md') {
-                        return; // Ignore LICENSE and README.md files
-                    }
-
-                    const listItem = document.createElement('li');
-                    const link = document.createElement('a');
-                    const icon = document.createElement('span');
-                    icon.classList.add('icon');
-                    link.href = '#';
-                    link.textContent = file.name;
-                    link.prepend(icon);
-                    if (file.type === 'file') {
-                        link.onclick = async () => {
-                            try {
-                                await fetchFileContent(file.path);
-                            } catch (error) {
-                                console.error('Error fetching file content:', error);
-                            }
-                        };
-                        link.classList.add('file');
-                    } else if (file.type === 'dir') {
-                        link.classList.add('directory');
-                        link.onclick = (e) => {
-                            e.preventDefault();
-                            if (!listItem.querySelector('ol')) {
-                                const subList = document.createElement('ol');
-                                subList.setAttribute('data-path', file.path);
-                                listItem.appendChild(subList);
-                                fetchFiles(file.path);
-                            } else {
-                                listItem.querySelector('ol').classList.toggle('hidden');
-                            }
-                        };
-                    }
-                    listItem.appendChild(link);
-                    fileList.appendChild(listItem);
-                });
-            } catch (error) {
-                console.error('Error fetching files:', error.message);
-            }
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                const icon = document.createElement('span');
+                icon.classList.add('icon');
+                link.href = '#';
+                link.textContent = file.name;
+                link.prepend(icon);
+                if (file.type === 'file') {
+                    link.onclick = () => fetchFileContent(file.path);
+                    link.classList.add('file');
+                } else if (file.type === 'dir') {
+                    link.classList.add('directory');
+                    link.onclick = (e) => {
+                        e.preventDefault();
+                        if (!listItem.querySelector('ol')) {
+                            const subList = document.createElement('ol');
+                            subList.setAttribute('data-path', file.path);
+                            listItem.appendChild(subList);
+                            fetchFiles(file.path);
+                        } else {
+                            listItem.querySelector('ol').classList.toggle('hidden');
+                        }
+                    };
+                }
+                listItem.appendChild(link);
+                fileList.appendChild(listItem);
+            });
         }
 
         async function fetchFileContent(filePath) {
-            try {
-                const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`);
-                if (!response.ok) {
-                    throw new Error(`Failed to fetch file content: ${response.status} ${response.statusText}`);
-                }
-                const file = await response.json();
-                const content = atob(file.content);
-                const fileContentDiv = document.getElementById('file-content');
-                fileContentDiv.textContent = content;
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`);
+            const file = await response.json();
+            const content = atob(file.content);
+            const fileContentDiv = document.getElementById('file-content');
+            fileContentDiv.textContent = content;
 
-                // Update download link
-                const downloadLink = document.getElementById('download-link');
-                downloadLink.href = `data:text/plain;charset=utf-8,${encodeURIComponent(content)}`;
-                downloadLink.setAttribute('download', file.name);
-            } catch (error) {
-                console.error('Error fetching file content:', error.message);
-            }
+            //update download link
+            const downloadLink = document.getElementById('download-link');
+            downloadLink.href = `data:text/plain;charset=utf-8,${encodeURIComponent(content)}`;
+            downloadLink.setAttribute('download', file.name);
         }
 
         async function fetchLastCommit() {
-            try {
-                const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/commits`);
-                if (!response.ok) {
-                    throw new Error(`Failed to fetch last commit: ${response.status} ${response.statusText}`);
-                }
-                const commits = await response.json();
-                if (commits.length > 0) {
-                    const lastCommitDate = new Date(commits[0].commit.author.date);
-                    const lastCommitElement = document.getElementById('last-commit');
-                    lastCommitElement.textContent = `Last commit: ${lastCommitDate.toLocaleString()}`;
-                }
-            } catch (error) {
-                console.error('Error fetching last commit:', error.message);
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/commits`);
+            const commits = await response.json();
+            if (commits.length > 0) {
+                const lastCommitDate = new Date(commits[0].commit.author.date);
+                const lastCommitElement = document.getElementById('last-commit');
+                lastCommitElement.textContent = `Last commit: ${lastCommitDate.toLocaleString()}`;
             }
         }
 
