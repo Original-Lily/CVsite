@@ -1,7 +1,7 @@
 const skills = [
   {
     title: 'Java',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -26,13 +26,13 @@ const skills = [
   },
   {
     title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools', 'Databases', 'Cloud'],
+    competency: 5,
+    category: ['Web Development', 'Tools', 'Databases', 'Cloud', 'Cyber Security'],
   },
   {
-    title: 'SQL',
+    title: 'mySQL',
     competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Databases'],
   },
   {
     title: 'MS Office',
@@ -56,12 +56,12 @@ const skills = [
   },
   {
     title: 'Git',
-    competency: 2,
+    competency: 4,
     category: ['Tools'],
   },
   {
     title: 'Google Cloud Compute',
-    competency: 1,
+    competency: 2,
     category: ['Tools', 'Web Development', 'Cyber Security', 'Cloud'],
   },
   {
@@ -132,8 +132,23 @@ const skills = [
   {
     title: 'Oracle',
     competency: 3,
-    category: ['Tools', 'Cyber Security', 'Cloud'],
+    category: ['Tools', 'ML Engineering', 'Cloud', 'Databases'],
   },
+  {
+    title: 'NoSQL',
+    competency: 2,
+    category: ['Databases'],
+  },
+  {
+    title: 'PosgreSQL',
+    competency: 3,
+    category: ['Databases'],
+  },
+  {
+    title: 'ExpressJS',
+    competency: 3,
+    category: ['Javascript', 'Web Development', 'Cyber Security'],
+  }
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the
