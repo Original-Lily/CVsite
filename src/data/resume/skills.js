@@ -67,22 +67,22 @@ const skills = [
   {
     title: 'Docker',
     competency: 2,
-    category: ['Tools', 'Data Science'],
+    category: ['Tools'],
   },
   {
     title: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Python', 'ML Engineering'],
+    category: ['Python', 'Machine Learning'],
   },
   {
     title: 'Tensorflow',
     competency: 1,
-    category: ['ML Engineering', 'Python', 'Data Science'],
+    category: ['Machine Learning', 'Python'],
   },
   {
     title: 'PyTorch',
     competency: 2,
-    category: ['ML Engineering', 'Python'],
+    category: ['Machine Learning', 'Python'],
   },
   {
     title: 'HTML + CSS',
@@ -92,7 +92,7 @@ const skills = [
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
+    category: ['Languages', 'Python', 'Machine Learning'],
   },
   {
     title: 'Ruby',
@@ -117,7 +117,7 @@ const skills = [
   {
     title: 'Pandas',
     competency: 2,
-    category: ['Data Science', 'ML Engineering', 'Python'],
+    category: ['Machine Learning', 'Python'],
   },
   {
     title: 'Azure',
@@ -132,7 +132,7 @@ const skills = [
   {
     title: 'Oracle',
     competency: 3,
-    category: ['Tools', 'ML Engineering', 'Cloud', 'Databases'],
+    category: ['Tools', 'Machine Learning', 'Cloud', 'Databases'],
   },
   {
     title: 'NoSQL',
