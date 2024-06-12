@@ -4,7 +4,7 @@ const data = [
     subtitle: 'Follow up on previous Projects',
     link: 'https://github.com/Original-Lily',
     image: '/images/projects/SpringClean.png',
-    date: '2024-02-10',
+    date: '2024-05-10',
     desc: 'Following up on previous projects, to ensure they are still working and to update them if necessary. This includes the Nautical Almanac App, completing DeutschW-rter, and working on a second iteration of Cloak Room',
   },
   {
