@@ -1,5 +1,13 @@
 const data = [
   {
+    title: 'Spring Cleaning',
+    subtitle: 'Follow up on previous Projects',
+    link: 'https://github.com/Original-Lily',
+    image: '/images/projects/SpringClean.png',
+    date: '2024-02-10',
+    desc: 'Following up on previous projects, to ensure they are still working and to update them if necessary. This includes the Nautical Almanac App, completing DeutschW-rter, and working on a second iteration of Cloak Room',
+  },
+  {
     title: 'Llama Localhost',
     subtitle: 'A guide for local Ai setup and personal use',
     link: 'https://github.com/Original-Lily',
@@ -14,14 +22,6 @@ const data = [
     image: '/images/projects/hospitalMan2.PNG',
     date: '2024-03-13',
     desc: 'A team project for my software development univeristy module, utilizing the Java Maven Framework and a remote AWS mySQL database, to create a full hospital management system with Zero-Trust access and a focus on patient usability and convenience',
-  },
-  {
-    title: 'Spring Cleaning',
-    subtitle: 'Follow up on previous Projects',
-    link: 'https://github.com/Original-Lily',
-    image: '/images/projects/SpringClean.png',
-    date: '2024-02-10',
-    desc: 'Following up on previous projects, to ensure they are still working and to update them if necessary. This includes the Nautical Almanac App, completing DeutschW-rter, and working on a second iteration of Cloak Room',
   },
   {
     title: 'Haskell TBAdventure Game PoC',

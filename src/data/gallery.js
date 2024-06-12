@@ -1,5 +1,13 @@
 const data = [
   {
+    title: 'Semester #6',
+    subtitle: '',
+    link: 'https://www.nationaltrust.org.uk/visit/kent/the-white-cliffs-of-dover',
+    image: '/images/gallery/Jun24.png',
+    date: '2024-06-29',
+    desc: '',
+  },
+  {
     title: 'Semester #5',
     subtitle: '',
     link: 'https://en.wikipedia.org/wiki/Rome',
