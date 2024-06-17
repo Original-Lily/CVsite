@@ -1,5 +1,21 @@
 const data = [
   {
+    title: 'SkyScope',
+    subtitle: 'An Amateurs Guide to Astronomical Signal Analysis and Image Capture',
+    link: 'https://www.sentinel-hub.com/',
+    image: '/images/projects/SatProj.png',
+    date: '2024-06-17',
+    desc: 'An ongoing experiment in order to utilize open source software and hardware in order to intercept and decode satellite image signals; utilizing the ESAs Sentinel 2 satellite & educational resources via the Copernicus program.',
+  },
+  {
+    title: 'Stegastic Labs',
+    subtitle: 'Stego Passion Project & research spike',
+    link: 'https://github.com/Original-Lily',
+    image: '/images/projects/Stego.png',
+    date: '2024-06-07',
+    desc: 'A modular SaaS and cloud based proof of concept tool, developing an online steganography demo that can double as a secure password manager. This project has a heavy focus on transferrable software and skills along with developing my cyber security knowledge.',
+  },
+  {
     title: 'Spring Cleaning',
     subtitle: 'Follow up on previous Projects',
     link: 'https://github.com/Original-Lily',
