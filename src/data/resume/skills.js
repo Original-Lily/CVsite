@@ -2,22 +2,22 @@ const skills = [
   {
     title: 'Java',
     competency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages', 'Java'],
   },
   {
     title: 'Node.JS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Java'],
   },
   {
     title: 'React',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Java'],
   },
   {
     title: 'Next.JS',
     competency: 1,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Java'],
   },
   {
     title: 'Bash',
@@ -127,7 +127,7 @@ const skills = [
   {
     title: 'VueJS',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Java'],
   },
   {
     title: 'Oracle',
@@ -147,7 +147,7 @@ const skills = [
   {
     title: 'ExpressJS',
     competency: 3,
-    category: ['Javascript', 'Web Development', 'Cyber Security'],
+    category: ['Java', 'Web Development', 'Cyber Security'],
   },
   {
     title: 'MongoDB',
