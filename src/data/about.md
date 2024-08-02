@@ -29,12 +29,12 @@ My preferred name is Lily & I am a passionate and dedicated full-stack developer
 # Fun facts
 
 - I can locate nearly every country on a map.
-- I am trying my very best to learn German
+- I am trying my very best to learn German.
 - I have a list of thousands of ideas, making a point to expand it everyday.
 - I added this page because so many people complained that my site was just my resume.
 - I am deterministic.
 - I am addicted to flip phones.
 
-# Key work
+# Key work & My timeline
 
-- [Here <3](https://github.com/Original-Lily)
+- [Here ](https://github.com/Original-Lily) and [Here <3](/stats)

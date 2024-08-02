@@ -1,5 +1,21 @@
 const data = [
   {
+    title: 'Summer Internship',
+    subtitle: '',
+    link: 'https://fabulouslily.com/',
+    image: '/images/gallery/Aug24.png',
+    date: '2024-08-01',
+    desc: '',
+  },
+  {
+    title: 'Summer Projects',
+    subtitle: '',
+    link: 'https://en.wikipedia.org/wiki/Stroud',
+    image: '/images/gallery/Jul24.png',
+    date: '2024-07-09',
+    desc: '',
+  },
+  {
     title: 'Semester #6',
     subtitle: '',
     link: 'https://www.nationaltrust.org.uk/visit/kent/the-white-cliffs-of-dover',

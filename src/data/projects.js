@@ -4,7 +4,7 @@ const data = [
     subtitle: 'An Amateurs Guide to Astronomical Signal Analysis and Image Capture',
     link: 'https://www.sentinel-hub.com/',
     image: '/images/projects/SatProj.PNG',
-    date: '2024-06-17',
+    date: '2024-07-17',
     desc: 'An ongoing experiment in order to utilize open source software and hardware in order to intercept and decode satellite image signals; utilizing the ESAs Sentinel 2 satellite & educational resources via the Copernicus program.',
   },
   {

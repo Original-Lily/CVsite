@@ -1,19 +1,17 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 // Define your timeline and future data with image URLs
 const timelineData = [
-  { year: '2020', event: 'Started learning React', image: '/images/projects/Phish.png' },
-  { year: '2021', event: 'Built my first React app', image: '/images/projects/GermProj.png' },
-  { year: '2022', event: 'Started working as a React developer', image: '/images/projects/SatProj.PNG' },
-  { year: '2023', event: 'Contributed to open source projects', image: '/images/projects/Resume.png' },
+  { year: '2015', event: 'Chosen Hill School', image: '/images/timeline/chosen.png' },
+  { year: '2022', event: 'University of Kent', image: '/images/timeline/kent.png' },
+  { year: '2024', event: '[redacted] Internship', image: '/images/timeline/tower.png' },
 ];
 
 const futureData = [
-  { year: '2024', event: 'Future plan 1', image: '/images/projects/WeatherApp.png' },
-  { year: '2025', event: 'Future plan 2', image: '/images/projects/SpringClean.png' },
-  { year: '2026', event: 'Future plan 3', image: '/images/projects/Stego.png' },
+  { year: '2025', event: '[redacted] Year in Industry', image: '/images/timeline/yearin.png' },
+  { year: '2026', event: 'Imperial College London', image: '/images/timeline/imperial.png' },
 ];
 
 const Container = styled.div`
@@ -35,25 +33,13 @@ const AnimatedLine = styled(motion.div)`
   transform: translateX(-50%);
 `;
 
-const StaticDot = styled.div`
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: red;
-  border-radius: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: red;
-  z-index: 1;
-`;
-
 const TimelineItem = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 40px 0;
   padding: 20px;
-  background-image: url(${props => props.image}); /* Unique background image */
+  background-image: url(${(props) => props.image}); /* Unique background image */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -65,10 +51,10 @@ const TimelineItem = styled(motion.div)`
 const FutureItem = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center alignment */
   margin: 40px 0;
   padding: 20px;
-  background-image: url(${props => props.image}); /* Unique background image */
+  background-image: url(${(props) => props.image}); /* Unique background image */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -93,6 +79,9 @@ const FutureOverlay = styled.div`
 const Content = styled.div`
   position: relative;
   z-index: 2; /* Ensures text is above the overlay */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the text content */
 `;
 
 const Year = styled.div`
@@ -116,22 +105,8 @@ const lineVariants = {
 };
 
 const Timeline = () => {
-  const [dotTop, setDotTop] = useState('0px');
   const lastTimelineRef = useRef(null);
   const firstFutureRef = useRef(null);
-
-  useEffect(() => {
-    if (lastTimelineRef.current && firstFutureRef.current) {
-      const lastTimelinePosition = lastTimelineRef.current
-        .getBoundingClientRect().bottom;
-      const firstFuturePosition = firstFutureRef.current
-        .getBoundingClientRect().top;
-      const dotPosition = lastTimelinePosition +
-        (firstFuturePosition - lastTimelinePosition) / 2;
-
-      setDotTop(`${dotPosition}px`);
-    }
-  }, []);
 
   return (
     <Container>
@@ -139,9 +114,6 @@ const Timeline = () => {
         initial="hidden"
         animate="visible"
         variants={lineVariants}
-      />
-      <StaticDot
-        style={{ top: dotTop }}
       />
       {timelineData.map((item, index) => (
         <TimelineItem

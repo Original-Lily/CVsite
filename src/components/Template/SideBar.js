@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+const { PUBLIC_URL } = process.env;
 
 const SideBar = () => (
   <section id="sidebar">
@@ -14,9 +14,9 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Lily Bradshaw</h2>
-        <h4>Charlie Bradshaw</h4>
-        <p>
-          My email can be found:{' '}
+        <h1>Charlie Bradshaw</h1>
+        <p><br />
+          My email can be found at:{' '}
           <a href="mailto:contact@fabulouslily.com">contact@fabulouslily.com</a>
         </p>
       </header>
