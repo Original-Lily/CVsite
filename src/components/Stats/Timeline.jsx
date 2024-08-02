@@ -2,17 +2,18 @@ import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
+// Define your timeline and future data with image URLs
 const timelineData = [
-  { year: '2020', event: 'Started learning React' },
-  { year: '2021', event: 'Built my first React app' },
-  { year: '2022', event: 'Started working as a React developer' },
-  { year: '2023', event: 'Contributed to open source projects' },
+  { year: '2020', event: 'Started learning React', image: '/images/projects/Phish.png' },
+  { year: '2021', event: 'Built my first React app', image: '/images/projects/GermProj.png' },
+  { year: '2022', event: 'Started working as a React developer', image: '/images/projects/SatProj.PNG' },
+  { year: '2023', event: 'Contributed to open source projects', image: '/images/projects/Resume.png' },
 ];
 
 const futureData = [
-  { year: '2024', event: 'Future plan 1' },
-  { year: '2025', event: 'Future plan 2' },
-  { year: '2026', event: 'Future plan 3' },
+  { year: '2024', event: 'Future plan 1', image: '/images/projects/WeatherApp.png' },
+  { year: '2025', event: 'Future plan 2', image: '/images/projects/SpringClean.png' },
+  { year: '2026', event: 'Future plan 3', image: '/images/projects/Stego.png' },
 ];
 
 const Container = styled.div`
@@ -52,7 +53,7 @@ const TimelineItem = styled(motion.div)`
   align-items: center;
   margin: 40px 0;
   padding: 20px;
-  background-image: url('/images/projects/CloakRoom.png'); /* Added background image */
+  background-image: url(${props => props.image}); /* Unique background image */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -67,7 +68,7 @@ const FutureItem = styled(motion.div)`
   align-items: center;
   margin: 40px 0;
   padding: 20px;
-  background-image: url('/images/projects/CloakRoom.png'); /* Added background image */
+  background-image: url(${props => props.image}); /* Unique background image */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -146,6 +147,7 @@ const Timeline = () => {
         <TimelineItem
           key={item.year}
           ref={index === timelineData.length - 1 ? lastTimelineRef : null}
+          image={item.image} /* Pass the unique image URL */
           initial="hidden"
           animate="visible"
           variants={timelineVariants}
@@ -159,6 +161,7 @@ const Timeline = () => {
         <FutureItem
           key={item.year}
           ref={index === 0 ? firstFutureRef : null}
+          image={item.image} /* Pass the unique image URL */
           initial="hidden"
           animate="visible"
           variants={timelineVariants}
