@@ -13,6 +13,21 @@
  */
 const work = [
   {
+    name: 'WithSecure',
+    position: 'Consulting Intern 2024',
+    url: 'https://www.withsecure.com/en/home',
+    startDate: '2024-06-24',
+    endDate: '2024-08-30',
+    summary: `Worked as a consulting intern, along with training providing cybersecurity services to clients, including penetration testing, 
+    vulnerability assessments, and security audits. Shadowing professionals to shortcut my learning curve and gain hands-on experience in the field.`,
+    highlights: [
+      'Trained in scoping, penetration testing, and vulnerability assessments, learning to identify and exploit security vulnerabilities in a variety of systems and applications.',
+      'Developed and presented a security audit report for a client, identifying and recommending solutions for security vulnerabilities in their network infrastructure.',
+      'Shadowed professional consultants on client engagements, gaining skills in industry-standard tools and techniques for penetration testing and security assessments.',
+      'Developed a Fine-Tuned LLM model with robust and strategic protection against adversarial attacks, such as Indirect prompt injection',
+    ],
+  },
+  {
     name: 'MediCare IT',
     position: 'Cheif Technical Lead',
     url: 'https://github.com/Original-Lily/MediCare',

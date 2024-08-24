@@ -16,7 +16,7 @@ const Projects = () => (
         <div className="title">
           <h2><Link to="/projects">Projects</Link></h2>
           <p>A selection of projects that I&apos;m not too ashamed of</p>
-          <p>These projects are both academic and extra curricular</p>
+          <p>These projects are both academic and professional</p>
           <p>From live service to work in progress I endevour to expand my skills where possible</p>
         </div>
       </header>
