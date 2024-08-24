@@ -6,11 +6,12 @@ const timelineData = [
   { year: '2015', event: 'Chosen Hill School', image: '/images/timeline/chosen.png' },
   { year: '2022', event: 'University of Kent', image: '/images/timeline/kent.png' },
   { year: '2024', event: 'WithSecure Internship', image: '/images/timeline/tower.png' },
+  { year: '2024', event: '[redacted] Year in Industry', image: '/images/timeline/yearin.png' },
 ];
 
 const futureData = [
-  { year: '2025', event: '[redacted] Year in Industry', image: '/images/timeline/yearin.png' },
   { year: '2026', event: 'Imperial College London', image: '/images/timeline/imperial.png' },
+  { year: '2027', event: 'Postgraduate Role', image: '/images/timeline/postGrad.png' },
 ];
 
 const Container = styled.div`
