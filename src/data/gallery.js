@@ -1,8 +1,16 @@
 const data = [
   {
+    title: 'Consulting and Research',
+    subtitle: '',
+    link: 'https://www.withsecure.com/en/home',
+    image: '/images/gallery/Sept24.png',
+    date: '2024-09-02',
+    desc: '',
+  },
+  {
     title: 'Summer Internship',
     subtitle: '',
-    link: 'https://fabulouslily.com/',
+    link: 'https://www.towerbridge.org.uk/',
     image: '/images/gallery/Aug24.png',
     date: '2024-08-01',
     desc: '',

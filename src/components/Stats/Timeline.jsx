@@ -10,6 +10,7 @@ const timelineData = [
 ];
 
 const futureData = [
+  { year: '2025', event: '[redacted] Internship', image: '/images/timeline/bank.png' },
   { year: '2026', event: 'Imperial College London', image: '/images/timeline/imperial.png' },
   { year: '2027', event: 'Postgraduate Role', image: '/images/timeline/postGrad.png' },
 ];
