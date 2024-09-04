@@ -224,6 +224,21 @@ const skills = [
     competency: 2,
     category: ['Tools', 'Cloud'],
   },
+  {
+    title: 'Swift',
+    competency: 1,
+    category: ['Languages', 'Tools'],
+  },
+  {
+    title: 'Rust',
+    competency: 1,
+    category: ['Languages'],
+  },
+  {
+    title: 'Go',
+    competency: 4,
+    category: ['Cloud', 'Languages'],
+  },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 const colors = [
