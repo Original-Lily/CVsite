@@ -15,7 +15,7 @@ const work = [
   {
     name: 'WithSecure',
     position: 'Consulting Intern 2024',
-    url: 'https://huggingface.co/withsecure',
+    url: 'https://www.withsecure.com/en/home',
     startDate: '2024-06-24',
     endDate: '2024-08-30',
     summary: `Worked as a consulting intern, along with training providing cybersecurity services to clients, including penetration testing, 

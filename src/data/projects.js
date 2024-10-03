@@ -2,7 +2,7 @@ const data = [
   {
     title: 'Indirect Propmpt Injection',
     subtitle: 'Researching defences against Indirect Prompt Injection',
-    link: 'https://github.com/Original-Lily',
+    link: 'https://huggingface.co/withsecure',
     image: '/images/projects/PromptInjection.png',
     date: '2024-08-01',
     desc: 'A research project into the development of a Fine-Tuned Llama3.1-8B LLM model with robust and strategic whitebox defences against adversarial attacks, specifically: Indirect prompt injection. This project is being developed in collaboration with WithSecure resources and professionals throughout my present role',
