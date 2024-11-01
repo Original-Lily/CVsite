@@ -1,16 +1,58 @@
-name: Cloudflare Pages Deployment Test
+name: Node.js CI
 
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  deploy-to-cloudflare-pages:
-    runs-on: ubuntu-latest
+  lint:
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
-      - uses: actions/checkout@v3
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/actions-pages@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
         with:
-          primary_domain: fabulouslily.com
-          build_directory: build
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+      - run: npm ci
+      - name: Lint
+        run: npm run lint
+
+  build:
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x, 20.x]
+        os: [ubuntu-20.04, windows-latest, macos-latest]
+        exclude:
+          - os: windows-latest
+            node-version: 16.x
+          - os: windows-latest
+            node-version: 18.x
+          - os: macos-latest
+            node-version: 16.x
+          - os: macos-latest
+            node-version: 18.x
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - name: Build and Statically Render
+        run: npm run predeploy
+        env:
+          NODE_ENV: development
+      - name: Test
+        run: npm test
+        env:
+          NODE_ENV: development
