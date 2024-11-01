@@ -1,11 +1,19 @@
 const data = [
   {
+    title: 'LilyPad',
+    subtitle: 'Custom Debian Distribution Experiment',
+    link: 'https://github.com/Original-Lily',
+    image: '/images/projects/boat.png',
+    date: '2024-09-20',
+    desc: 'An ongoing personal project to create a custom Debian distribution, with a focus on convenience and privacy. This project will include home grown software, custom packages, and a custom installer. The goal is to create a distribution that is easy to use, secure and as future proof as possible - specifically for long term use on air gapped devices.',
+  },
+  {
     title: 'Indirect Propmpt Injection',
     subtitle: 'Researching defences against Indirect Prompt Injection',
-    link: 'https://huggingface.co/withsecure',
+    link: 'https://labs.withsecure.com/publications/llama3-prompt-injection-hardening',
     image: '/images/projects/PromptInjection.png',
     date: '2024-08-01',
-    desc: 'A research project into the development of a Fine-Tuned Llama3.1-8B LLM model with robust and strategic whitebox defences against adversarial attacks, specifically: Indirect prompt injection. This project is being developed in collaboration with WithSecure resources and professionals throughout my present role',
+    desc: 'A research project into the development of a Fine-Tuned Llama3.1-8B LLM model with robust and strategic whitebox defences against adversarial attacks, specifically: Indirect prompt injection. This project is being developed in collaboration with WithSecure resources and professionals throughout my present role to be published as a wider launch concept for WithSecure LLM hardening sercices.',
   },
   {
     title: 'SkyScope',

@@ -1,5 +1,13 @@
 const data = [
   {
+    title: 'Halloween',
+    subtitle: '',
+    link: 'https://doodles.google/doodle/halloween-2024/',
+    image: '/images/gallery/Oct24.png',
+    date: '2024-10-31',
+    desc: '',
+  },
+  {
     title: 'Consulting and Research',
     subtitle: '',
     link: 'https://www.withsecure.com/en/home',
